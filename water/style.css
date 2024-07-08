@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
+  
+.wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: 80px 677px;
+  grid-gap: 50px;
+}
+
+.wrapper img {
+  width: 80px;
+  align-self: center;
+  margin-top: -25px;
+}
+
+.wrapper h1 {
+  color: #252525;
+  font-family: "Source Sans Pro";
+  font-size: 100px;
+  font-weight: 700;
+  align-self: center;
+}
+
+.wrapper h1 .mask {
+  background: url("https://svgshare.com/i/AnG.svg") repeat-x;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 700px;
+  background-position: 0px -150px;
+  animation: water 7s ease-out infinite;
+}
+
+@keyframes water {
+  0% {
+    background-position: 0px -150px;
+  }
+  50% {
+    background-position: -300px -50px; 
+  }
+  100% {
+    background-position: 0px -150px;
+  }
+}
