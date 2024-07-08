@@ -1,0 +1,55 @@
+/* styles.css */
+body {
+    background-color: rgb(44, 141, 206);
+    color: white;
+}
+
+img.right {
+    float: right;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+img.left {
+    float: left;
+    margin: 10px;
+    width: 500px;
+    height: 300px;
+}
+
+h2, p {
+    clear: both;
+}
+
+table {
+    margin: 20px auto;
+    background-color: grey;
+    color: white;
+}
+
+th {
+    background-color: blue;
+}
+.topnav {
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(84, 170, 223);
+  }
+  
+  .topnav a.active {
+    color: white;
+  }
+
+  
